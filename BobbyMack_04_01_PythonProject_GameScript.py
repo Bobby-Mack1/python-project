@@ -3,9 +3,31 @@ low=1
 high=100
 attempts=0
 answer = random.randint(1, 100)
+var=True
 
 
-while True:
+def play_again():
+    while True:
+        question = input('Would you like to play again? (Y/N): ').lower()
+        if question == 'y':
+            print()
+            answer = random.randint(1, 100)
+            attempts=0
+            break
+        elif question == 'n':
+            print('Thanks for playing!')
+            var=False
+            break
+        else:
+            print(f'{question} is not a valid input.')          
+            continue
+
+
+    
+
+
+
+while var is True:
     guess=(input(f'Guess a whole number between {low} and {high}: '))
     if guess.isdigit():
         guess=int(guess)
@@ -25,37 +47,36 @@ while True:
                 print(f'Correct!!! The answer was {answer}')
                 print(f'You got the answer in {attempts} guesses.')
                 print()
+                while True:
+                    question = input('Would you like to play again? (Y/N): ').lower()
+                    if question == 'y':
+                        print()
+                        answer = random.randint(1, 100)
+                        attempts=0
+                        break
+                    elif question == 'n':
+                        print('Thanks for playing!')
+                        var=False
+                        break
+                    else:
+                        print(f'{question} is not a valid input.')          
+                        continue
+        else:
+            while True:
+                print(f"you have reached the {attempts} attempt limit and have lost")
                 question = input('Would you like to play again? (Y/N): ').lower()
                 if question == 'y':
                     print()
                     answer = random.randint(1, 100)
                     attempts=0
-                    continue
+                    break
                 elif question == 'n':
                     print('Thanks for playing!')
+                    var=False
                     break
                 else:
-                    print(f'{question} is not a valid input. You are not allowed to play.')
-                    print('Please learn how to read. Goodbye.')
-                    break
-        else:
-            print(f"you have breached the {attempts} attempt limit and have lost")
-            question = input('Would you like to play again? (Y/N): ').lower()
-            if question == 'y':
-                print()
-                answer = random.randint(1, 100)
-                attempts=0
-                continue
-            elif question == 'n':
-                print('Thanks for playing!')
-                break
-            else:
-                print(f'{question} is not a valid input. You are not allowed to play.')
-                print('Please learn how to read. Goodbye.')
-                break
-
-                       
-    
+                    print(f'{question} is not a valid input.')  
+                    continue
     else:
         print('Invalid guess.')
 
