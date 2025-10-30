@@ -1,17 +1,23 @@
 import random
 low=1
-high=100
+high=10
 attempts=0
-answer = random.randint(1, 100)
+answer = random.randint(1, 10)
+max_guesses = 10
 var=True
 
 
+
+
 def play_again():
+    global var
+    global answer
+    global attempts
     while True:
         question = input('Would you like to play again? (Y/N): ').lower()
         if question == 'y':
             print()
-            answer = random.randint(1, 100)
+            answer = random.randint(1, 10)
             attempts=0
             break
         elif question == 'n':
@@ -26,14 +32,13 @@ def play_again():
     
 
 
-
 while var is True:
     guess=(input(f'Guess a whole number between {low} and {high}: '))
     if guess.isdigit():
         guess=int(guess)
         attempts+=1
 
-        if attempts <5:
+        if attempts < max_guesses:
 
             if guess < low or guess > high:
                 print('That number is out of range!')
@@ -47,36 +52,12 @@ while var is True:
                 print(f'Correct!!! The answer was {answer}')
                 print(f'You got the answer in {attempts} guesses.')
                 print()
-                while True:
-                    question = input('Would you like to play again? (Y/N): ').lower()
-                    if question == 'y':
-                        print()
-                        answer = random.randint(1, 100)
-                        attempts=0
-                        break
-                    elif question == 'n':
-                        print('Thanks for playing!')
-                        var=False
-                        break
-                    else:
-                        print(f'{question} is not a valid input.')          
-                        continue
+                play_again()      
         else:
-            while True:
-                print(f"you have reached the {attempts} attempt limit and have lost")
-                question = input('Would you like to play again? (Y/N): ').lower()
-                if question == 'y':
-                    print()
-                    answer = random.randint(1, 100)
-                    attempts=0
-                    break
-                elif question == 'n':
-                    print('Thanks for playing!')
-                    var=False
-                    break
-                else:
-                    print(f'{question} is not a valid input.')  
-                    continue
+            print(f'you have passed the limit of {max_guesses} guesses.')
+            print(f'The answer was {answer}')
+            play_again()
+        
     else:
         print('Invalid guess.')
 
