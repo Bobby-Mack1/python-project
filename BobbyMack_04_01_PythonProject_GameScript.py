@@ -111,33 +111,38 @@ while var is True: #A loop is used to ensure that the player doesn't input the w
     if guess.isdigit(): #ensures that player input is a number
         guess=int(guess) #ensures that the number is an integer
         attempts+=1 #counts the number of attempts
-        if attempts < max_guesses:
+        if attempts < max_guesses: #allows the game to continue so long as the max number of guesses has not be reached
+            #if player guesses a number out of range
             if guess < low or guess > high:
                 print('--------------------------------------------------------------------------------------------------------------------')
                 print('That number is out of range!')
                 print(f'Your guess must be between {low} and {high}')
                 print('--------------------------------------------------------------------------------------------------------------------')
+            #lets the player know if their guess is too high or too low
             elif guess > answer:
                 print('Too high! Try again!')
             elif guess < answer:
                 print('Too low! Try again!')
+            #if/when the player guesses correctly
             else:
                 print('--------------------------------------------------------------------------------------------------------------------')
                 print(f'Correct!!! The answer was {answer}.')
                 print(f'You got the answer in {attempts} guesses!')
                 print('--------------------------------------------------------------------------------------------------------------------')
                 play_again()      
-        else:
+        else: #message for the player if they reach the max amount of guesses
             print('--------------------------------------------------------------------------------------------------------------------')
             print(f'you have passed the limit of {max_guesses} guesses.')
             print(f'The answer was {answer}')
             print('--------------------------------------------------------------------------------------------------------------------')
             play_again()
+    #if the player puts in the wrong input the loop will restart and not end until they have entered the correct input.
     else:
         print('--------------------------------------------------------------------------------------------------------------------')
         print('Invalid guess.')
         print('--------------------------------------------------------------------------------------------------------------------')
-        attempts-=1
+        attempts-=1 #stops users getting punnished for an invalid guess
+        
 
 
 
