@@ -2,7 +2,7 @@ import random
 low=1
 high=10
 attempts=0
-answer = random.randint(1, 10)
+answer = random.randint(1, 100)
 max_guesses = 10
 var=True
 var2 =1
