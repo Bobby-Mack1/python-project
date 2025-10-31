@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="310" y="30" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-5" target="_F4WJqBPt5VTGNkIEmJm-8">
@@ -15,7 +15,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-5" value="Do you want to see the rules?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-5" value="Do you want to see the rules?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="310" y="120" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-7" target="_F4WJqBPt5VTGNkIEmJm-10">
@@ -45,10 +45,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-7" value="Select difficulty" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-7" value="Select difficulty" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="310" y="250" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-8" value="Explains rules to player" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-8" value="Explains rules to player" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="250" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-9" target="_F4WJqBPt5VTGNkIEmJm-28">
@@ -59,16 +59,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-9" value="Guess a number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-9" value="Guess a number" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="290" y="620" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-10" target="_F4WJqBPt5VTGNkIEmJm-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-10" value="Sets the players number of guesses to 7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-10" value="Sets the players number of guesses to 7" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="310" y="460" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-11" value="Sets the players number of guesses to 10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-11" value="Sets the players number of guesses to 10" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="450" y="460" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.68;exitY=1.028;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-12" target="_F4WJqBPt5VTGNkIEmJm-9">
@@ -79,7 +79,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-12" value="Sets the players number of guesses to 5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-12" value="Sets the players number of guesses to 5" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="460" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-3" target="_F4WJqBPt5VTGNkIEmJm-5">
@@ -106,7 +106,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-28" value="Lets player know they have lost" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-28" value="Lets player know they have lost" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="790" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-9" target="_F4WJqBPt5VTGNkIEmJm-9">
@@ -121,13 +121,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-33" value="Do you want to play again?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-33" target="_F4WJqBPt5VTGNkIEmJm-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-45" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_F4WJqBPt5VTGNkIEmJm-44">
+          <mxGeometry x="0.0491" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-33" value="Do you want to play again?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="320" y="960" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-37" target="_F4WJqBPt5VTGNkIEmJm-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_F4WJqBPt5VTGNkIEmJm-37" value="Lets player know they have won" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-37" value="Lets player know they have won" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="320" y="790" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_F4WJqBPt5VTGNkIEmJm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_F4WJqBPt5VTGNkIEmJm-9" target="_F4WJqBPt5VTGNkIEmJm-37">
@@ -148,6 +160,9 @@
           <mxGeometry x="-0.0893" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_F4WJqBPt5VTGNkIEmJm-43" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1080" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
