@@ -1,5 +1,5 @@
 ##############################################################################
-########################### NUMBER GUESSING GAME##############################
+########################## NUMBER GUESSING GAME ##############################
 ##############################################################################
 
 import random  #importing the .random package so that a random number can be selected.
@@ -13,10 +13,12 @@ var2 =1
 var3 =1
 
 
-
-#Play_again is a function that is used to determine whether the player wants to play again. 
-#It is used twice in the main body of code for the game
-# All -------------------- are purely for aesthetic purposes throughout
+'''
+Play_again is a function that is used to determine whether the player wants to play again.
+The player is asked if they want to play again: if they input no the game ends and if they say yes a new number is generated and their attempts are set to 0
+It is used twice in the main body of code for the game
+All -------------------- are purely for aesthetic purposes throughout
+ '''
 def play_again():
     #Variables were made global otherwise the variables in the function would not link to themselves outside of the function
     global var
@@ -48,8 +50,13 @@ def play_again():
             print(f'{question} is not a valid input. Please try again.') 
             print('--------------------------------------------------------------------------------------------------------------------')         
             continue
-
-#The select_difficulty function is used to let the player decide if they want to read the rules and also select what difficulty they want to play on
+'''
+The select_difficulty function is used to let the player decide if they want to read the rules and also select what difficulty they want to play on
+The function firstly asks whether the player wants to see the rules of the game: if they input y the rules are shown and then they are asked to select difficulty,  
+if they input n they are immediatley asked to select the difficulty
+The player can input easy (E), medium(m) or hard(h). This will result in the maximum number of guesses changing depending on the difficulty level chosen
+easy- 10 guesses, medium- 7 guesses, hard- 5 guesses
+'''
 def select_difficulty():
     #Variables were made global otherwise the variables in the function would not link to themselves outside of the function
     global var2
