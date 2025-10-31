@@ -148,7 +148,7 @@ while var is True: #A loop is used to ensure that the player doesn't input the w
         print('--------------------------------------------------------------------------------------------------------------------')
         print('Invalid guess.')
         print('--------------------------------------------------------------------------------------------------------------------')
-        attempts-=1 #stops users getting punnished for an invalid guess
+        
         
 
 
